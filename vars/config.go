@@ -4,7 +4,7 @@ var Config Configs
 
 type Configs struct {
 	Path struct {
-		Image  string `yaml:"image" env-default:"/tmp/lastsnap.jpg`
+		Image  string `yaml:"image" env-default:"/tmp/lastsnap.jpg"`
 		Models string `yaml:"model" env-default:"/etc/models"`
 	} `yaml:"path"`
 
